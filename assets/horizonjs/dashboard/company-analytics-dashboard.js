@@ -545,7 +545,7 @@ $(document).ready(function () {
             $.ajax({
                 type: 'GET',
                 contentType: 'application/json',
-                url: 'http://localhost:5000/api/users',
+                url: 'hhttps://evd-server.herokuapp.com/api/users',
                 headers: {
                     'X-Auth-Token': savedToken
                 },
