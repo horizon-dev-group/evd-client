@@ -27,7 +27,7 @@ $(document).ready(function () {
             $.ajax({
                 type: 'GET',
                 contentType: 'application/json',
-                url: 'http://localhost:5000/api/users',
+                url: 'https://evd-server.herokuapp.com/api/users',
                 headers: {
                     'X-Auth-Token': savedToken
                 },
@@ -83,7 +83,7 @@ $(document).ready(function () {
             type: 'POST',
             data: JSON.stringify(data),
             contentType: 'application/json',
-            url: 'http://localhost:5000/api/users/user_registration_option',
+            url: 'https://evd-server.herokuapp.com/api/users/user_registration_option',
             headers: {
                 'X-Auth-Token': savedToken
             },
@@ -151,7 +151,7 @@ $(document).ready(function () {
             type: 'POST',
             data: JSON.stringify(data),
             contentType: 'application/json',
-            url: 'http://localhost:5000/api/users/register',
+            url: 'https://evd-server.herokuapp.com/api/users/register',
             headers: {
                 'X-Auth-Token': savedToken
             },
