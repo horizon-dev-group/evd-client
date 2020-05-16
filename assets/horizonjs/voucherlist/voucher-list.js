@@ -15,7 +15,7 @@ $(document).ready(function () {
             $.ajax({
                 type: 'GET',
                 contentType: 'application/json',
-                url: 'http://localhost:5000/api/users',
+                url: 'https://evd-server.herokuapp.com/api/users',
                 headers: {
                     'X-Auth-Token': savedToken
                 },
@@ -46,7 +46,7 @@ $(document).ready(function () {
         $.ajax({
             type: 'GET',
             contentType: 'application/json',
-            url: 'http://localhost:5000/api/voucher',
+            url: 'https://evd-server.herokuapp.com/api/voucher',
             headers: {
                 'X-Auth-Token': savedToken
             },
